@@ -1,0 +1,312 @@
+/* import fonts from fonts.css files */
+@import url(./fonts.css);
+
+/* import variables */
+@import url(./partials/_variables.css);
+
+/* import global */
+@import url(./partials/_global.css);
+
+/* Start Navigaition */
+
+.header-area .main-menu span {
+  color: #e84545;
+}
+
+.header-area .main-menu .mr-auto .navbar-nav {
+  margin: 0 auto;
+  padding: 0%;
+}
+
+.header-area .main-menu .mr-auto .navbar-nav li {
+  margin-left: 1px;
+}
+
+.header-area .main-menu .navbar .navbar-brand {
+  padding: 0 7px 0 0px;
+  font-size: 32px;
+  color: #fff;
+  font-family: var(--roboto);
+}
+
+.header-area .main-menu .navbar {
+  padding: 1rem 10rem;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: rgb(43, 46, 74, 0.5);
+  /* color: rgb(48, 71, 94); */
+}
+
+.header-area .main-menu .navbar-nav .nav-item .nav-link {
+  font: normal 700 15px/2px var(--roboto);
+  text-transform: uppercase;
+  padding: 1.7rem;
+  /* color: var(--text-color); */
+  color: #fff;
+}
+
+.header-area .main-menu .navbar .navbar-nav .nav-item.active a {
+  /* /* background: var(--gradient-color); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #e84545;
+}
+
+.header-area .main-menu .navbar-nav .nav-item a:hover {
+  /* background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; */
+  color: rgb(232, 69, 69);
+}
+
+/* End Navigaition */
+
+/* Start Main Area */
+/* Start Banner Area */
+
+#typer {
+  display: block;
+}
+
+#iam {
+  color: #ccc;
+  text-shadow: none;
+}
+.site-main .site-banner .site-title h3 {
+  padding-top: 33%;
+  margin-left: 20px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: #ccc;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-7px);
+  z-index: 0;
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+.site-main .site-banner .site-title span {
+  color: rgb(232, 69, 69);
+  text-shadow: 10px 3px rgba(232, 69, 69, 0.3);
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.site-main .site-banner .banner-image {
+  padding-top: 10%;
+}
+
+/* End Banner Area */
+
+/* Start About Area */
+
+.about-area {
+  margin-top: 300px;
+  padding: 128px 80px;
+}
+
+.about-area h1 {
+  font-size: 55px;
+  color: #fff;
+  margin-bottom: 55px;
+}
+
+#para2 {
+  margin-bottom: 40px;
+}
+
+.about-area .row p {
+  color: #ccc;
+}
+/* End About Area */
+
+/* Start Services Area */
+.services-area {
+  margin-top: 200px;
+}
+
+.services-area .services-title {
+  padding: 0 14rem;
+}
+
+.services-area .services-title h1 {
+  margin-bottom: 55px;
+  text-shadow: 2px 2px rgba(147, 135, 216, 0.8);
+}
+
+.services-area .container.services-list .services {
+  background-color: rgb(97, 85, 166, 0.3);
+  padding: 2rem 0;
+  width: 16rem;
+  margin: 5rem 1.5rem;
+  height: 375px;
+}
+
+.services-area .container.services-list .services:hover {
+  box-shadow: 0px 10px 30px rgba(97, 85, 166, 0.7);
+  cursor: pointer;
+  text-shadow: 1px 1px rgba(97, 85, 166, 0.8);
+}
+
+.services-area .container .services-list .card-body h5 {
+  font-weight: 600;
+  color: rgb(30, 101, 172);
+}
+
+/* End Services Area */
+
+/* Start Skills Area */
+
+.skills-area {
+  margin-top: 250px;
+}
+
+.skills-area .skills-title {
+  padding: 0 14rem;
+  margin-bottom: 4rem;
+}
+
+.skills-area .skills-title h1 {
+  text-shadow: 2px 2px rgba(147, 135, 216, 0.8);
+  margin-bottom: 15px;
+}
+
+.skills-area .container .owl-carousel .skill {
+  background-color: rgb(97, 85, 166, 0.3);
+  margin: 25px;
+  height: 132px;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(97, 85, 166, 0.7);
+}
+
+.skills-area .container .owl-carousel .skill:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px rgba(97, 85, 166, 0.8);
+}
+
+.skills-area .container .owl-carousel .skill h4 {
+  font-weight: 500;
+  color: rgb(30, 101, 172);
+}
+.skills-area .container .owl-carousel .skill span {
+  color: #ccc;
+}
+
+/* End Skills Area */
+
+/* Start Contact-me Area */
+.site-main .contact-me {
+  margin-top: 200px;
+}
+
+.site-main .contact-me h1 {
+  text-shadow: 2px 2px rgba(147, 135, 216, 0.8);
+  margin-bottom: 15px;
+}
+
+.site-main .contact-me .contact-title {
+  margin-bottom: 90px;
+}
+
+.site-main .contact-me .contact-title span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.site-main .contact-me .contact-title span::after {
+  content: "";
+  height: 2px;
+  width: 5vw;
+  background: #fff;
+  display: inline-block;
+  margin-left: 1%;
+  transform: translateY(-5px);
+  z-index: 0;
+}
+.site-main .contact-me .contact-title span::before {
+  content: "";
+  height: 2px;
+  width: 5vw;
+  background: #fff;
+  display: inline-block;
+  margin-right: 1%;
+  transform: translateY(-5px);
+  z-index: 0;
+}
+
+.site-main .contact-me .info .row-info {
+  margin: 35px 0;
+}
+
+.site-main .contact-me .info .icons i {
+  color: #e84545;
+  font-size: x-large;
+  text-align: center;
+}
+
+.site-main .contact-me .info .icons .head {
+  color: #ccc;
+}
+.site-main .contact-me .info .icons .sub-title {
+  color: rgb(30, 101, 172);
+  font-weight: 700;
+}
+
+.site-main .contact-me .info h2 {
+  color: rgb(30, 101, 172);
+}
+
+.site-main .contact-me .info .info-message .row {
+  margin: 15px 0;
+  width: 100%;
+}
+
+.site-main .contact-me .info .info-message .row input,
+.site-main .contact-me .info .info-message .row textarea {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 7px;
+}
+
+/* End Contact-me Area */
+
+/* End Main Area */
+
+/* Start Footer */
+
+.footer-area .para {
+  padding: 5px;
+  margin: -1%;
+}
+
+#go-up {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 45px;
+  margin-right: 30px;
+  position: fixed;
+  cursor: pointer;
+  font-weight: 900;
+  color: #e84545;
+  padding: 10px;
+}
+/* End Footer */

@@ -1,0 +1,240 @@
+/* is equal to 340px or less */
+
+@media only screen and (max-width: 340px) {
+  .header-area .main-menu .navbar {
+    padding: 0;
+  }
+
+  .header-area .main-menu .navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+  .header-area .main-menu .navbar .container-fluid {
+    width: 300px;
+  }
+
+  .header-area .main-menu .container-fluid .navbar .navbar-brand span {
+    padding: 0%;
+    margin: 0;
+    text-align: left;
+    font-size: 28px;
+  }
+
+  .site-banner .container .row .site-title h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .about-area {
+    padding: 0%;
+    margin: 40px 0;
+  }
+
+  .about-area .container-fluid .row h1 {
+    font-size: 28px;
+  }
+
+  .services-area {
+    padding: 0%;
+    margin: 40px 0;
+  }
+
+  .services-area .services-title {
+    padding: 0%;
+  }
+
+  .skills-area .skills-title {
+    padding: 0%;
+  }
+
+  .skills-area .container .owl-carousel .img-fluid {
+    height: 300px;
+  }
+
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 220px;
+  }
+
+  .skills-area .container .owl-carousel .row.skill.active {
+    height: 400px;
+  }
+
+  .skills-area .container .owl-carousel .about-client h4 {
+    height: 60px;
+  }
+
+  .site-main .contact-me .info .info-message .row input {
+    margin: 12px 0;
+  }
+  .skills-area .container .owl-carousel .skill {
+    background-color: rgb(97, 85, 166, 0.3);
+    margin: 35px;
+    height: 150px;
+    width: 250px;
+    padding: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 2px 7px rgba(97, 85, 166, 0.7);
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .header-area .main-menu .navbar {
+    padding: 0;
+  }
+  .header-area .main-menu .navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+  .header-area .main-menu .navbar .container-fluid {
+    width: 300px;
+  }
+
+  .header-area .main-menu .container-fluid .navbar .navbar-brand span {
+    padding: 0%;
+    margin: 0;
+    text-align: left;
+    font-size: 28px;
+  }
+
+  .site-banner .container .row .site-title h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .about-area {
+    padding: 0%;
+    margin: 40px 0;
+  }
+
+  .about-area .container-fluid .row h1 {
+    font-size: 28px;
+  }
+
+  .services-area {
+    padding: 0%;
+    margin: 40px 0;
+  }
+
+  .services-area .services-title {
+    padding: 0%;
+  }
+
+  .skills-area .skills-title {
+    padding: 0%;
+  }
+
+  .skills-area .container .owl-carousel .img-fluid {
+    height: 300px;
+  }
+
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 220px;
+  }
+
+  .skills-area .container .owl-carousel .row.skill.active {
+    height: 400px;
+  }
+
+  .skills-area .container .owl-carousel .about-client h4 {
+    height: 60px;
+  }
+
+  .site-main .contact-me .info .info-message .row input {
+    margin: 12px 0;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .header-area .main-menu .navbar {
+    padding: 0;
+  }
+  .header-area .main-menu .navbar .navbar-brand {
+    font-size: 18px;
+  }
+
+  .header-area .main-menu .navbar .container-fluid {
+    width: 300px;
+  }
+
+  .header-area .main-menu .container-fluid .navbar .navbar-brand span {
+    padding: 0%;
+    margin: 0;
+    text-align: left;
+    font-size: 28px;
+  }
+
+  .site-banner .container .row .site-title h1 {
+    margin: 0;
+    font-size: 28px;
+  }
+
+  .about-area {
+    padding: 0%;
+    margin: 40px 0;
+  }
+
+  .about-area .container-fluid .row h1 {
+    font-size: 28px;
+  }
+
+  .services-area {
+    padding: 0%;
+    margin: 40px 0;
+  }
+
+  .services-area .services-title {
+    padding: 0%;
+  }
+
+  /* .services-area .container .row .col-lg-3 div.services {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .services-area .container .row div.col-lg-3 {
+    width: 300px;
+  } */
+
+  .skills-area .skills-title {
+    padding: 0%;
+  }
+
+  .skills-area .container .owl-carousel .img-fluid {
+    height: 300px;
+  }
+
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 220px;
+  }
+
+  .skills-area .container .owl-carousel .row.skill img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .skills-area .container .owl-carousel .row.skill.active {
+    height: 400px;
+  }
+
+  .skills-area .container .owl-carousel .about-client h4 {
+    height: 60px;
+  }
+
+  .site-main .contact-me .info .info-message .row input {
+    margin: 12px 0;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .site-main .contact-me .info .info-message .row input,
+  .site-main .contact-me .info .info-message .row textarea {
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    margin: 5px;
+  }
+}

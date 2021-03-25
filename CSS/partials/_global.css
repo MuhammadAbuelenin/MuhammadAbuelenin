@@ -1,0 +1,37 @@
+.site-main {
+  font-family: var(--roboto);
+}
+
+/* Button */
+.button {
+  padding: 12px 60px;
+  border-radius: 2px;
+  border: none;
+  background: var(--gradient-color2);
+  margin: 7px 15px;
+  color: #fff;
+  transition: background 0.6s ease;
+  box-shadow: var(--box-shadow);
+}
+
+.button:hover {
+  color: #e84545;
+  font-weight: 900;
+  background: #fff;
+}
+
+.font-wh {
+  color: #fff;
+}
+
+.font-or {
+  color: #e84545;
+}
+
+.font-gr {
+  color: #ccc;
+}
+
+.font-wg {
+  font-weight: 900;
+}

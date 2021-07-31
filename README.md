@@ -1,5 +1,5 @@
 ### Hi there, Welcome to my profile. 👋
-Muhammad Abuelenin
+Muhammad Abuelenin | 
 Data Analyst
 
 <!--

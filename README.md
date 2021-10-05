@@ -2,7 +2,7 @@
 Muhammad Abuelenin | 
 Data Analyst
 
->Visit my site for more info >> https://muhammadabuelenin.github.io/
+>Visit my site for more info >> https://muhammadabuelenin.github.io/Muhammad-Abuelenin/
 <!--
 **MuhammadAbuelenin/MuhammadAbuelenin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

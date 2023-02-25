@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Muhammad Abuelenin</h1>
 <h3 align="center">Data Analyst</h3>
 
-<img align="right" alt="coding" width="400" src="![image](https://user-images.githubusercontent.com/76665270/221376349-eece54f7-8c35-4071-8783-7ee3bc4d9d17.png)">
+<img align="right" alt="coding" width="400" src="![image](https://user-images.githubusercontent.com/76665270/221376389-f7a6fd77-aed9-43c3-88a4-25d946d7d517.png)">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=muhammadabuelenin&label=Profile%20views&color=0e75b6&style=flat" alt="muhammadabuelenin" /> </p>
 
